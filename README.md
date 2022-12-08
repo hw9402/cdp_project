@@ -6,5 +6,4 @@
 - 햄버거 형태 출력 기능
 - branch
   - main
-  - hyeonwoo
-  - heesung
+  - develop
