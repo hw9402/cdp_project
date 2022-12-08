@@ -28,9 +28,19 @@ class Order {
             qCount.push(menuCount[i]);
         }
     }
+    void printResult() {
+        for (i = 1; i <= qMenu.size(); i++) {
+            cout << qMenu.front() << " " << qCount.front() << "\n";
+            qMenu.pop();
+            qCount.pop();
+        }
+    }
 };
 
 int main() {
-    cout << "Hello world\n";
+    Order a;
+    a.printMenu();
+    a.orderMenu();
+    a.printResult();
     return 0;
 }
